@@ -41,12 +41,12 @@ public class LinkCountIterator
 		int itemsRow = categoriesBar.findElements(By.tagName("a")).size();
 		System.out.println("Number of categories present: "+itemsRow);
 		
-		//4. Click on each link in the bottom 1st column and check if the links are opening - dynamic selection
+		//4. No.of links present on 1st footer column
 		WebElement columnFooter = driver.findElement(By.xpath("//body[1]/div[7]/footer[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]"));
 		int footerFirstLinks = columnFooter.findElements(By.tagName("a")).size();
 		System.out.println("Footer Links: "+footerFirstLinks);
 		
-		//4. Click oneach link in the column and check if the links are opening - dynamic selection
+		//5. Click on each link in the column and check if the links are opening - dynamic selection
 		for(int i=0;i<footerFirstLinks;i++)
 		{
 			String clickOnLinkTab = Keys.chord(Keys.CONTROL,Keys.ENTER);
