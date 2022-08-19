@@ -11,4 +11,4 @@ Language: Java
 1. Have used seperate java class for each test cases.
 2. Have used Thread.sleep() and explicit wait.
 3. Provide the chrome webdriver location as per the user's file location.
-4. Change the location for screenshot's accordingly. 
+4. Change the storage location in local system for screenshot's accordingly. 
